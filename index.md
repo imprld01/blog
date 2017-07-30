@@ -14,6 +14,9 @@ title	: 御風翱翔．知識漫遊
 				<li class="wrapper style2">
 					<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:white" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
+					{% for tag in post.tags %}
+						<li><a href="{{ site.baseurl }}/{{ page.categories }}/Tag-{{ tag }}">{{ tag }}</a></li>
+					{% endfor %}
 					{{ post.excerpt }}
 					<section class="special">
 						<ul class="buttons">
@@ -28,6 +31,9 @@ title	: 御風翱翔．知識漫遊
 					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
+						{% for tag in post.tags %}
+							<li><a href="{{ site.baseurl }}/{{ page.categories }}/Tag-{{ tag }}">{{ tag }}</a></li>
+						{% endfor %}
 						{{ post.excerpt }}
 						<section class="special">
 							<ul class="buttons">
