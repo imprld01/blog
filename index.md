@@ -14,9 +14,9 @@ title	: 御風翱翔．知識漫遊
 				<li class="wrapper style2">
 					<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:white" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
-					<p>
+					<p><span class="icon fa-tag">: </span>
 						{% for tag in post.tags %}
-							<span class="icon fa-tag">: </span><a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
+							<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 						{% endfor %}
 					</p>
 					{{ post.excerpt }}
@@ -32,7 +32,7 @@ title	: 御風翱翔．知識漫遊
 					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
-						<p>
+						<p><span class="icon fa-tag">: </span>
 							{% for tag in post.tags %}
 								<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 							{% endfor %}
@@ -40,7 +40,7 @@ title	: 御風翱翔．知識漫遊
 						{{ post.excerpt }}
 						<section class="special">
 							<ul class="buttons">
-								<span class="icon fa-tag">: </span><li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
+								<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
 							</ul>
 						</section>
 					</li>
