@@ -9,8 +9,7 @@ layout: default
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">
-          {% for post in site.posts %}
-            <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+			<li class="wrapper style2">
 				<h2 style="margin-bottom:0em"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 				{{ post.excerpt }}
@@ -20,7 +19,18 @@ layout: default
                     </ul>
 				</section>
             </li>
-          {% endfor %}
+			{% for post in site.posts %}
+				<li class="wrapper style1">
+					<h2 style="margin-bottom:0em"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
+					{{ post.excerpt }}
+					<section class="special">
+						<ul class="buttons">
+							<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
+						</ul>
+					</section>
+				</li>
+			{% endfor %}
         </ul>
     </section>
 </article>
