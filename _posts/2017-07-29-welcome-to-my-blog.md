@@ -4,7 +4,7 @@ title		: "歡迎來到飛翔茶鋪"
 subtitle	: "Welcome to BW's Blog"
 date		: 2017-07-29 16:00:00 +0800
 categories	: 
-author		: "Rhadow"
+author		: "BW"
 tags		: First-Post Announcement
 comments	: true
 signature	: true
