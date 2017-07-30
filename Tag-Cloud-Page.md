@@ -17,7 +17,7 @@ title	: Tag Cloud
 					<a href="/tags/{{ tag[0] }}">
 						{{ tag | first }} ({{ tag | last | size }})
 					</a>
-				</li>
+				</li>&nbsp;
 			{% endfor %}
 		</ul>
 	</section>
