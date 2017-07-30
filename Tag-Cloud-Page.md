@@ -10,7 +10,7 @@ title	: Tag Cloud
 	</header>
 
 	<section class="style4 wrapper container">
-		<ul>
+		<ul style="display: inline">
 			{% assign sorted_tags = (site.tags | sort: 0) %}
 			{% for tag in sorted_tags %}
 				<li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 35  }}%">
