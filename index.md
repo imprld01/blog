@@ -44,7 +44,10 @@ title	: 御風翱翔．知識漫遊
 								<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
 							</ul>
 						</section>
-					</li><hr style="border: 1px solid #ccc">
+					</li>
+					{% if forloop.last %}{% else %}
+						<hr style="border: 1px solid #ccc">
+					{% endif %}
 				{% endif %}
 			{% endfor %}
         </ul>
