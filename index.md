@@ -12,7 +12,7 @@ title	: 御風翱翔．知識漫遊
         <ul class="posts">
 			{% for post in site.categories.Top-Post %}
 				<li class="wrapper style2">
-					<h2 style="margin-bottom:0em"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:white" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 					{{ post.excerpt }}
 					<section class="special">
@@ -26,7 +26,7 @@ title	: 御風翱翔．知識漫遊
 				{% if post.categories contains 'Top-Post' %}
 				{% else %}
 					<li class="wrapper style1">
-						<h2 style="margin-bottom:0em"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 						{{ post.excerpt }}
 						<section class="special">
