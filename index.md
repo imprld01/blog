@@ -25,7 +25,7 @@ title	: 御風翱翔．知識漫遊
 							<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
 						</ul>
 					</section>
-				</li><hr style="border: 1px solid #000">
+				</li><hr style="border: 1px solid #ccc">
 			{% endfor %}
 			{% for post in site.posts %}
 				{% if post.categories contains 'Top-Post' %}
@@ -44,7 +44,7 @@ title	: 御風翱翔．知識漫遊
 								<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
 							</ul>
 						</section>
-					</li><hr style="border: 1px solid #000">
+					</li><hr style="border: 1px solid #ccc">
 				{% endif %}
 			{% endfor %}
         </ul>
