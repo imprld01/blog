@@ -16,7 +16,7 @@ title	: 御風翱翔．知識漫遊
 					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:white" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 					<p>
 						{% for tag in post.tags %}
-							<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}">{{ tag }}</a>&nbsp;
+							<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span class="label label-primary">{{ tag }}</span></a>&nbsp;
 						{% endfor %}
 					</p>
 					{{ post.excerpt }}
@@ -40,7 +40,7 @@ title	: 御風翱翔．知識漫遊
 						{{ post.excerpt }}
 						<section class="special">
 							<ul class="buttons">
-								<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
+								<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span class="label label-primary">{{ tag }}</span></a>&nbsp;
 							</ul>
 						</section>
 					</li>
