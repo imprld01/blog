@@ -5,7 +5,7 @@ title	: 技術筆記
 
 <article id="main">
     <header class="special container">
-        <span class="icon fa-computer"></span>
+        <span class="icon fa-television"></span>
         <h2><a href="{{ site.baseurl }}">&lt;{{ page.title }}&gt;</a></h2>
     </header>
     <section class="wrapper style4 container">
