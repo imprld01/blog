@@ -1,11 +1,12 @@
 ---
-layout: default
+layout	: default
+title	: All Novels
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-file-text"></span>
-        <h2><a href="{{ site.baseurl }}">&lt;All Novels&gt;</a></h2>
+        <h2><a href="{{ site.baseurl }}">&lt;{{ page.title }}&gt;</a></h2>
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">

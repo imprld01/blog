@@ -6,7 +6,7 @@ title	: Tag Cloud
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-cloud"></span>
-		<h2 class="post-title">{{ page.title }}</h2>
+		<h2 class="post-title">&lt;{{ page.title }}&gt;</h2>
 	</header>
 
 	<section class="style4 wrapper container">

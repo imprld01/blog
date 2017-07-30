@@ -1,12 +1,12 @@
 ---
 layout	: default
-title	: &lt;Archives&gt;
+title	: Archives
 ---
 
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-archive"></span>
-		<h2 class="post-title">{{ page.title }}</h2>
+		<h2 class="post-title">&lt;{{ page.title }}&gt;</h2>
 	</header>
 	
 	<section class="style4 wrapper container">
