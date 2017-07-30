@@ -5,7 +5,7 @@ title	: 心情雜記
 
 <article id="main">
     <header class="special container">
-        <span class="icon fa-book"></span>
+        <span class="icon fa-moon"></span>
         <h2><a href="{{ site.baseurl }}">&lt;{{ page.title }}&gt;</a></h2>
     </header>
     <section class="wrapper style4 container">
