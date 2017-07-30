@@ -3,7 +3,7 @@ layout		: post
 title		: "歡迎來到飛翔茶鋪"
 subtitle	: "Welcome to BW's Blog"
 date		: 2017-07-29 16:00:00 +0800
-categories	: 
+categories	: test
 author		: "BW"
 tags		: First-Post Announcement
 comments	: true
