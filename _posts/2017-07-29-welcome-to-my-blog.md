@@ -10,7 +10,7 @@ comments	: true
 signature	: true
 ---
 
-[![Welcome](https://cdn.pixabay.com/photo/2017/06/23/23/28/lamp-2436302_960_720.jpg)](https://pixabay.com/en/lamp-light-ideas-2436302/)
+<span class="image featured">[<img src="https://cdn.pixabay.com/photo/2017/06/23/23/28/lamp-2436302_960_720.jpg" alt="Welcome">](https://pixabay.com/en/lamp-light-ideas-2436302/)</span>
 
 歡迎來到我的部落格，大家可以進來喝茶、四處逛逛！
 
