@@ -10,7 +10,7 @@ comments	: true
 signature	: true
 ---
 
-[![Welcome](https://github.com/imprld01/imprld01.github.io/blob/master/assets/img/lamp-2436302_1280_size-change.png?raw=true)](https://pixabay.com/en/lamp-light-ideas-2436302/)
+[![Welcome](https://cdn.pixabay.com/photo/2017/06/23/23/28/lamp-2436302_960_720.jpg)](https://pixabay.com/en/lamp-light-ideas-2436302/)
 
 歡迎來到我的部落格，大家可以進來喝茶、四處逛逛！
 
