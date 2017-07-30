@@ -15,7 +15,7 @@ categories	: tag-cloud
 			{% assign sorted_tags = (site.tags | sort: 0) %}
 			{% for tag in sorted_tags %}
 				<li style="display: inline;font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 35  }}%">
-					<a href="{{ page.categories }}/Tag-{{ tag[0] }}">
+					<a href="{{ site.baseurl }}/{{ page.categories }}/Tag-{{ tag[0] }}">
 						{{ tag | first }} ({{ tag | last | size }})
 					</a>
 				</li>&nbsp;
