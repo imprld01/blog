@@ -1,6 +1,6 @@
 ---
 layout	: default
-title	: Tag Box
+title	: Tag Cloud
 ---
 
 <article id="main">
