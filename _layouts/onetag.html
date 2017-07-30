@@ -28,11 +28,12 @@ layout: default
 								</ul>
 							</section>
 						</li>
-						{% unless forloop.last %}
-							<hr style="border: 1px solid #ccc">
-						{% endunless %}
+						
 					{% endif %}
 				{% endfor %}
+				{% unless forloop.last %}
+					<hr style="border: 1px solid #ccc">
+				{% endunless %}
 			{% endfor %}
 		</ul>
 	</section>

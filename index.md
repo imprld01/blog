@@ -28,8 +28,7 @@ title	: 御風翱翔．知識漫遊
 				</li><hr style="border: 1px solid #ccc">
 			{% endfor %}
 			{% for post in site.posts %}
-				{% if post.categories contains 'Top-Post' %}
-				{% else %}
+				{% unless post.categories contains 'Top-Post' %}
 					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
@@ -48,7 +47,7 @@ title	: 御風翱翔．知識漫遊
 					{% unless forloop.last %}
 						<hr style="border: 1px solid #ccc">
 					{% endunless %}
-				{% endif %}
+				{% endunless %}
 			{% endfor %}
         </ul>
     </section>
