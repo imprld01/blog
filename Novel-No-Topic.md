@@ -1,11 +1,12 @@
 ---
-layout: default
+layout	: default
+title	: 無題
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-book"></span>
-        <h2><a href="{{ site.baseurl }}">&lt;御風翱翔．知識漫遊&gt;</a></h2>
+        <h2><a href="{{ site.baseurl }}">&lt;{{ page.title }}&gt;</a></h2>
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">
