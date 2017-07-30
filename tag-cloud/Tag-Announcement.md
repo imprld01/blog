@@ -1,5 +1,6 @@
 ---
-layout	: one-tag
+layout:	: one-tag
 title	: Announcement
 tag		: Announcement
 ---
+
