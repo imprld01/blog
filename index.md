@@ -40,7 +40,7 @@ title	: 御風翱翔．知識漫遊
 						{{ post.excerpt }}
 						<section class="special">
 							<ul class="buttons">
-								<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span class="label label-primary">{{ tag }}</span></a>&nbsp;
+								<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
 							</ul>
 						</section>
 					</li>
