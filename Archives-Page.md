@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Archives
 ---
 
-<ul>
+<article id="main">
+	<ul>
 	{% for post in site.posts %}
 		{% unless post.next %}
 			<h3>{{ post.date | date: '%Y' }}</h3>
@@ -21,3 +21,5 @@ title: Archives
 		</li>
 	{% endfor %}
 </ul>
+</article>
+
