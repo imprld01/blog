@@ -28,9 +28,9 @@ layout: default
 								</ul>
 							</section>
 						</li>
-						{% if forloop.last %}{% else %}
+						{% unless forloop.last %}
 							<hr style="border: 1px solid #ccc">
-						{% endif %}
+						{% endunless %}
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
