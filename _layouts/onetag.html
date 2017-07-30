@@ -5,7 +5,7 @@ layout: default
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-tag"></span>
-		<h2 class="post-title">{{page.title}}</h2>
+		<h2 class="post-title">Posts tagged by &lt;{{ page.title }}&gt;</h2>
 	</header>
 
 	<section class="style4 wrapper container">
@@ -26,5 +26,5 @@ layout: default
 				{% endfor %}
 			{% endfor %}
 		</ul>
-	</section>{{ content }}
+	</section>
 </article>
