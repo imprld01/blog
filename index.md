@@ -45,9 +45,9 @@ title	: 御風翱翔．知識漫遊
 							</ul>
 						</section>
 					</li>
-					{% if forloop.last %}{% else %}
+					{% unless forloop.last %}
 						<hr style="border: 1px solid #ccc">
-					{% endif %}
+					{% endunless %}
 				{% endif %}
 			{% endfor %}
         </ul>
