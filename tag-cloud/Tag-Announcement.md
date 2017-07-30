@@ -1,13 +1,13 @@
 ---
 layout	: One-Tag
-title	: Posts tagged by &lt;Announcement&gt;
+title	: Announcement
 tag		: Announcement
 ---
 
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-tag"></span>
-		<h2 class="post-title">{{ page.title }}</h2>
+		<h2 class="post-title">Posts tagged by &lt;{{ page.title }}&gt;</h2>
 	</header>
 
 	<section class="style4 wrapper container">
