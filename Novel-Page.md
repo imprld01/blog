@@ -1,6 +1,6 @@
 ---
 layout	: default
-title	: All Novels
+title	: 小說隨筆
 ---
 
 <article id="main">
