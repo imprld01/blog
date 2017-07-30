@@ -12,11 +12,14 @@ layout: default
           {% for post in site.posts %}
             <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {{ post.excerpt }}
-                <section class="special">
+                Posted By {% if page.author %}{{ page.author }}{% endif %}{% if page.meta %}{{ page.meta }}{% endif %} on {{ page.date | date: "%b %-d, %Y" }}
+				{{ post.excerpt }}
+				
+				<section class="special">
                     <ul class="buttons">
-                        <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read more</a></li>
-                    </ul></section>
+                        <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
+                    </ul>
+				</section>
             </li>
           {% endfor %}
         </ul>
