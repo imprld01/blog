@@ -1,6 +1,6 @@
 ---
 layout	: default
-title	: Archives
+title	: &lt;Archives&gt;
 ---
 
 <article id="main">
