@@ -20,7 +20,7 @@ tag		: Announcement
 							<p>{{ post.summary }}</p>
 							<ul>
 								{% for tag in post.tags %}
-									<li><a href="{{ site.baseurl }}{{ page.categories }}/Tag-{{ tag }}">{{ tag }}</a></li>
+									<li><a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}">{{ tag }}</a></li>
 								{% endfor %}
 							</ul>
 						</li>
