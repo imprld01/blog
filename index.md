@@ -12,7 +12,7 @@ layout: default
 			{% for post in site.categories.Top-Post %}
 				<li class="wrapper style2">
 					<h2 style="margin-bottom:0em"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
+					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 					{{ post.excerpt }}
 					<section class="special">
 						<ul class="buttons">

@@ -6,7 +6,7 @@ layout: default
 	<header class="special container">
 		<span class="icon fa-bookmark-o"></span>
 		<h2 class="post-title">{{ page.title }}</h2>
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="{{ site.github_url }}">{{ post.author }}</a>{% endif %}</p>
 	</header>
 
 	<section class="style4 wrapper container">
