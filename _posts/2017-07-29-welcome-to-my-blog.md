@@ -7,7 +7,7 @@ categories	: Top-Post
 author		: "BW"
 tags		: First-Post Announcement
 comments	: true
-signature	: true
+signature	: false
 ---
 
 [<span class="image featured"><img src="https://cdn.pixabay.com/photo/2017/06/23/23/28/lamp-2436302_960_720.jpg" alt="Welcome"></span>](https://pixabay.com/en/lamp-light-ideas-2436302/)
