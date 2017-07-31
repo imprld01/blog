@@ -1,6 +1,7 @@
 ---
-layout	: default
-title	: 御風翱翔．知識漫遊
+layout			: default
+title			: 御風翱翔．知識漫遊
+comment-count	: true
 ---
 
 <article id="main">
@@ -14,10 +15,13 @@ title	: 御風翱翔．知識漫遊
 				<li class="wrapper style2">
 					<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:white" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
-					<p><span class="icon fa-tag">: </span>
+					<p>
+						<span class="icon fa-tag">:</span>
 						{% for tag in post.tags %}
 							<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 						{% endfor %}
+						<span class="icon fa-comment"></span>
+						<a href="{{ site.url }}{{ site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
 					</p>
 					{{ post.excerpt }}
 					<section class="special">
@@ -32,10 +36,13 @@ title	: 御風翱翔．知識漫遊
 					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
-						<p><span class="icon fa-tag">: </span>
+						<p>
+							<span class="icon fa-tag">:</span>
 							{% for tag in post.tags %}
 								<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 							{% endfor %}
+							<span class="icon fa-comment"></span>
+							<a href="{{ site.url }}{{ site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
 						</p>
 						{{ post.excerpt }}
 						<section class="special">
