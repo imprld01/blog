@@ -1,7 +1,7 @@
 ---
 layout			: default
 title			: 御風翱翔．知識漫遊
-comment-count	: true
+comment	: true
 ---
 
 <article id="main">
