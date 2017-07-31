@@ -10,7 +10,7 @@ comments	: true
 signature	: false
 ---
 
-[<span class="image featured"><img src="https://cdn.pixabay.com/photo/2017/06/23/23/28/lamp-2436302_960_720.jpg" alt="Welcome"></span>](https://pixabay.com/en/lamp-light-ideas-2436302/)
+[<span class="image featured"><img src="https://github.com/imprld01/blog/blob/master/assets/img/lamp-2436302_1280_size-change.png" alt="Welcome"></span>](https://pixabay.com/en/lamp-light-ideas-2436302/)
 歡迎來到我的部落格，大家可以進來喝茶、四處逛逛！
 
 最近終於新居落成啦，很久之前就計畫要架一個站來放一些有的沒的，只是都不太有時間(加上小小的懶惰😔)，
