@@ -21,7 +21,7 @@ comment-count	: true
 							<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 						{% endfor %}
 						<span class="icon fa-comment"></span>
-						<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}" style="color:white"></a>
+						<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}" style="color:white">Loading...</a>
 					</p>
 					{{ post.excerpt }}
 					<section class="special">
@@ -42,7 +42,7 @@ comment-count	: true
 								<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 							{% endfor %}
 							<span class="icon fa-comment"></span>
-							<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}" style="color:white"></a>
+							<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}" style="color:white">Loading...</a>
 						</p>
 						{{ post.excerpt }}
 						<section class="special">
