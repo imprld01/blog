@@ -23,7 +23,7 @@ title	: Archives
 				{% endunless %}
 
 				<li>    
-					<div class="month" style="display: inline-block;">{{ post.date | date:"%b" }}</div>&nbsp;
+					<div class="month" style="overflow: hidden;">{{ post.date | date:"%b" }}</div>&nbsp;
 					<div class="archive-post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 				</li>
 			{% endfor %}
