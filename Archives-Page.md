@@ -9,8 +9,7 @@ title	: Archives
 		<h2 class="post-title">&lt;{{ page.title }}&gt;</h2>
 	</header>
 	
-	<section class="style4 wrapper container">
-		
+	<section class="style4 wrapper container">	
 		<ul>
 			{% for post in site.posts %}
 				{% unless post.next %}
@@ -24,7 +23,7 @@ title	: Archives
 				{% endunless %}
 
 				<li>    
-					<div class="month">{{ post.date | date:"%b" }}</div>
+					<div class="month" style="display: inline-block;">{{ post.date | date:"%b" }}</div>
 					<div class="archive-post-title" style="display: inline-block;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 				</li>
 			{% endfor %}
