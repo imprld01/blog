@@ -15,12 +15,9 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		font-weight: 450;
 		vertical-align: baseline;
 		font-family:Roboto,arial,helvetica,'Brandon Grotesque','Microsoft JhengHei',DFKai-sb
-	}
-	
-	.ipt_setting {
-		font-weight: 450;
 	}
 	
 	.pt_setting p, blockquote {

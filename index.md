@@ -12,7 +12,7 @@ comment-count	: true
     <section class="wrapper style4 container">
         <ul class="posts">
 			{% for post in site.categories.Top-Post %}
-				<li class="ipt_setting wrapper style2">
+				<li class="wrapper style2">
 					<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 					<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:white" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 					<p>
@@ -33,7 +33,7 @@ comment-count	: true
 			{% endfor %}
 			{% for post in site.posts %}
 				{% unless post.categories contains 'Top-Post' %}
-					<li class="ipt_setting wrapper style1">
+					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 						<p>
