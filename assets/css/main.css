@@ -21,6 +21,7 @@
 	
 	.pt_setting p, blockquote {
 		color: black;
+		font-weight: 100;
 	}
 	
 	.bq_setting {
