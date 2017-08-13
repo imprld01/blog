@@ -24,7 +24,7 @@ title	: Archives
 
 				<li>    
 					<div class="month" style="display: inline-block;">{{ post.date | date:"%b" }}</div>&nbsp;
-					<div class="archive-post-title" style="display: inline-block;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+					<div class="archive-post-title" style="display: inline-block;"><a style="font-weight: bold;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 				</li>
 			{% endfor %}
 		</ul>
