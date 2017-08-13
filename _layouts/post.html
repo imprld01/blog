@@ -9,7 +9,7 @@ layout: default
 		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="{{ site.github_url }}" style="color:#7c8081" target="_blank">{{ page.author }}</a>{% endif %}</p>
 	</header>
 
-	<section class="style4 wrapper container pt_setting">
+	<section class="pt_setting style4 wrapper container">
 		{{ content }}
 		<span class="icon fa-tag">:</span>
 		{% for tag in page.tags %}
