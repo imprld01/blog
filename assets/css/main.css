@@ -20,6 +20,10 @@
 	}
 	
 	.pt_setting {
+		font-weight: 450;
+	}
+	
+	.pt_setting p, blockquote {
 		color: black;
 		font-weight: 500;
 	}
