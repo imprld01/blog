@@ -11,7 +11,7 @@ title	: 技術筆記
     <section class="wrapper style4 container">
         <ul class="posts">
           {% for post in site.categories.tech-note %}
-            <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+            <li class="wrapper style1">
 				<h2 style="margin-bottom:0em"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p>Posted By {% if post.author %}{{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 				{{ post.excerpt }}
