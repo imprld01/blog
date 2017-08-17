@@ -5,7 +5,7 @@ subtitle	: "Code Packing Mechanism in Python"
 date		: 2017-08-17 22:13:00 +0800
 categories	: tech-note
 author		: "BW"
-tags		: Tech-Note
+tags		: Tech-Note Python
 comments	: true
 signature	: false
 ---
