@@ -25,8 +25,8 @@ signature	: false
 應該提供閱讀的人(包括自己與未來的自己)較友善的內容。
 
 <blockquote class="bq_setting">
-構築程式的思考重點：
-(1) 軟體架構設計：物件導向設計(Object-Oriented)與設計模式(Design Pattern)
+構築程式的思考重點：<br>
+(1) 軟體架構設計：物件導向設計(Object-Oriented)與設計模式(Design Pattern)<br>
 (2) 程式組織方式：封裝(Encapsulate)、分離(Separate)與重構(Refactoring)
 </blockquote>
 
