@@ -10,5 +10,5 @@ comments	: true
 signature	: false
 ---
 
-[<span class="image featured"><img src="https://github.com/imprld01/blog/blob/master/assets/img/Python_logo_and_wordmark.svg" alt="Welcome"></span>](https://pixabay.com/en/lamp-light-ideas-2436302/)
+[<span class="image featured"><img src="https://github.com/imprld01/blog/blob/master/assets/img/Python_logo_and_wordmark.svg?raw=true" alt="Welcome"></span>](https://pixabay.com/en/lamp-light-ideas-2436302/)
 
