@@ -3,9 +3,9 @@ layout		: post
 title		: "Python程式碼的包裝機制"
 subtitle	: "Code Packing Mechanism in Python"
 date		: 2017-08-17 22:13:00 +0800
-categories	: 
+categories	: tech-note
 author		: "BW"
-tags		: tech-note
+tags		: Tech-Note
 comments	: true
 signature	: false
 ---
