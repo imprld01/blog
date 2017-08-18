@@ -23,7 +23,7 @@ title	: Archives
 				{% endunless %}
 
 				<li>    
-					<div class="month" style="display: inline-block; margin-left:1em">{{ post.date | date:"%b" }}</div>
+					<div class="month" style="display: inline-block; margin-right:1em">{{ post.date | date:"%b" }}</div>
 					<div class="archive-post-title" style="display: inline-block;"><a style="font-weight: bold;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 				</li>
 			{% endfor %}
