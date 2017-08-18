@@ -23,7 +23,15 @@ title	: Archives
 				{% endunless %}
 
 				<li>    
-					<div class="month" style="display: inline-block; margin-right:1em">{{ post.date | date:"%b" }}</div>
+					{% unless post.next %}
+						<div class="month">{{ post.date | date:"%b" }}</div>
+					{% else %}
+						{% capture month %}{{ post.date | date:"%b" }}{% endcapture %}
+						{% capture nmonth %}{{ post.next.date | date:"%b" }}{% endcapture %}
+						{% if month != nmonth %}
+							<div class="month">{{ post.date | date:"%b" }}</div>
+						{% endif %}
+					{% endunless %}
 					<div class="archive-post-title" style="display: inline-block;"><a style="font-weight: bold;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 				</li>
 			{% endfor %}
