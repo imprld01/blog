@@ -35,7 +35,7 @@ comment-count	: true
 				{% unless post.categories contains 'Top-Post' %}
 					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-						<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:black" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
+						<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:#7c8081" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
 						<p>
 							<span class="icon fa-tag">:</span>
 							{% for tag in post.tags %}
