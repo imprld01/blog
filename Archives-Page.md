@@ -32,7 +32,7 @@ title	: Archives
 							<div class="month">{{ post.date | date:"%b" }}</div>
 						{% endif %}
 					{% endunless %}
-					<div class="archive-post-title" style="display: inline-block;"><a style="font-weight: bold;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+					<div class="archive-post-title" style="margin-left: 2em;"><a style="font-weight: bold;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 				</li>
 			{% endfor %}
 		</ul>
