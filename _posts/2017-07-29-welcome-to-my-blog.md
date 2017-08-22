@@ -8,6 +8,8 @@ author		: "BW"
 tags		: First-Post Announcement
 comments	: true
 signature	: false
+keywords	: welcome
+description	: 歡迎來到我的部落格，大家可以進來喝茶、四處逛逛！
 ---
 
 [<span class="image featured"><img src="https://github.com/imprld01/blog/blob/master/assets/img/lamp-2436302_1280_size-change.png?raw=true" alt="Welcome"></span>](https://pixabay.com/en/lamp-light-ideas-2436302/)
