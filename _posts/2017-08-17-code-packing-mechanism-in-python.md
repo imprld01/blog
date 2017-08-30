@@ -8,7 +8,7 @@ author		: "BW"
 tags		: Tech-Note Python
 comments	: true
 signature	: false
-keywords	: python,code packing,programming,function,package,module,class
+keywords	: python,包裝,程式碼,封裝,機制,python程式碼,程式碼封裝,程式碼包裝,封裝機制,包裝機制,code packing,programming,function,package,module,class
 description	: 要寫Python很容易，只要安裝好環境之後，直接打上程式碼就可以立即得到執行結果，例如打上2+5，Python就會立即顯示7。不過，如果想要使用Python撰寫有規模的程式，應該還要學習Python的函式、類別、模組與套件的寫法，較能寫出易維護的程式碼。構築程式的思考重點：(1) 軟體架構設計：物件導向設計(Object-Oriented)與設計模式(Design Pattern) (2) 程式組織方式：封裝(Encapsulate)、分離(Separate)與重構(Refactoring)
 ---
 
