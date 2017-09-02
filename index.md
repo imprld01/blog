@@ -1,6 +1,6 @@
 ---
 layout			: default
-title			: 御風翱翔．知識漫遊
+title			: BW's Blog
 comment-count	: true
 ---
 
