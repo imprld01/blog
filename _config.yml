@@ -10,6 +10,8 @@ permalink           : pretty
 
 # Site Info
 title               : BW's Blog
+title-cn            : 御風翱翔．知識漫遊
+keywords            : Bo-Wun Shih,Bo-Wun,BW,sbw,bws,BW,imprld01,imprld,BW's Blog,御風翱翔,知識漫遊,飛翔茶鋪
 tagline             : A Blog about Computer Science, Creative Work and Personal Articles
 description         : > # this means to ignore newlines until "url:"
   This is blog about tech. This blog is owned by Bo-Wun!
