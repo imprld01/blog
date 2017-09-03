@@ -1,6 +1,6 @@
 ---
 layout		: post
-title		: "Python程式碼的包裝機制"
+title		: "關於Python的包裝機制"
 subtitle	: "Code Packing Mechanism in Python"
 date		: 2017-08-17 22:13:00 +0800
 categories	: tech-note
