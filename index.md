@@ -1,13 +1,14 @@
 ---
 layout			: default
 title			: BW's Blog
+title-cn		: 御風翱翔．知識漫遊
 comment-count	: true
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-book"></span>
-        <h2><a href="{{ site.baseurl }}">&lt;{{ page.title }}&gt;</a></h2>
+        <h2><a href="{{ site.baseurl }}">&lt;{{ page.title-cn }}&gt;</a></h2>
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">
