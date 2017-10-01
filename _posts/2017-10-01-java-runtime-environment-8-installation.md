@@ -2,7 +2,7 @@
 layout		: post
 title		: "現在開始Windows軟體開發：安裝Java Runtime Environment(JRE) 8"
 subtitle	: "Java Runtime Environment(JRE) 8 Installation on Wondows"
-date		: 2017-10-01 12:19:00 +0800
+date		: 2017-10-01 18:02:00 +0800
 categories	: tech-note
 author		: "BW"
 tags		: Tech-Note Java Installation
