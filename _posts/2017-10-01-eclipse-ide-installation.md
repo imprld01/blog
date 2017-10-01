@@ -45,5 +45,5 @@ Eclipse是一款為多數人使用的集成開發環境(Integrated Development E
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-Eclipse/6.JPG"></span>
 
 <div class="sp_setting">步驟7</div>
-等待仔入完成後便可開始使用Eclipse開發自己的軟體了。
+等待載入完成後便可開始使用Eclipse開發自己的軟體了。
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-Eclipse/7.JPG"></span>
