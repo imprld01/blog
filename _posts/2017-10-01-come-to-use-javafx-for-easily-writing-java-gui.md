@@ -166,7 +166,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/3-5.JPG"></span>
 
 * ⚫️ 在NetBeans上開始使用JavaFX：初次使用
- 
+
 <blockquote class="bq_setting">
 環境準備：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">NetBeans IDE</a><br>
@@ -249,7 +249,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/5-8.JPG"></span>
 
 * ⚫️ 在Eclipse上開始使用JavaFX：初次使用
- 
+
 <blockquote class="bq_setting">
 環境要求：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment(JRE)</a><br>
