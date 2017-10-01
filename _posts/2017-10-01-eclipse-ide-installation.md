@@ -17,7 +17,7 @@ Eclipse是一款為多數人使用的集成開發環境(Integrated Development E
 本篇的重點將告訴讀者如何安裝開發Java的Eclipse IDE：
 
 <blockquote class="bq_setting">
-環境準備：
+環境準備：<br/>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment(JRE)</a>
 (2) <a style="color:black;" target="_blank" href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse IDE</a>
 </blockquote>
