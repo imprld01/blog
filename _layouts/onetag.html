@@ -13,12 +13,6 @@ comment-count	: true
 		<ul>
 			{% for post in site.posts %}
 				{% if post.tags contains page.tag %}
-					{% unless forloop.first %}
-						{% unless forloop.last %}
-							<hr style="border: 1px solid #ccc">
-						{% endunless %}
-					{% endunless %}
-
 					<li class="wrapper style1">
 						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:#7c8081" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
@@ -37,7 +31,10 @@ comment-count	: true
 							</ul>
 						</section>
 					</li>
-						
+					
+					{% unless forloop.last %}
+						<hr style="border: 1px solid #ccc">
+					{% endunless %}
 				{% endif %}
 			{% endfor %}
 		</ul>
