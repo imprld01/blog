@@ -12,7 +12,9 @@ keywords	: Java,tutorial,教學,程式碼,java程式碼,Oracle,JDK,software,deve
 description	: 由Java撰寫的任何程式都需要運行在具有Java虛擬環境的電腦上，這也是Java的跨平台性質的來由，所以在運行任何Java程式之前都必須安裝Java Runtime Environment(JRE)，而Java Development Kit(JDK)則是Oracle公司提供給Java開發者配置Java程式開發環境的安裝套件，這個安裝套件本身就內建了JRE的部分，所以開發者只要安裝好JDK後，就可以開發或者行任何Java程式了。
 ---
 
-由Java撰寫的任何程式都需要運行在具有Java虛擬環境的電腦上，這也是Java的跨平台性質的來由，所以在運行任何Java程式之前都必須安裝Java Runtime Environment(JRE)，而Java Development Kit(JDK)則是Oracle公司提供給Java開發者配置Java程式開發環境的安裝套件，這個安裝套件本身就內建了JRE的部分，所以開發者只要安裝好JDK後，就可以開發或者行任何Java程式了。本篇的重點將告訴讀者如何安裝JDK：
+由Java撰寫的任何程式都需要運行在具有Java虛擬環境的電腦上，這也是Java的跨平台性質的來由，所以在運行任何Java程式之前都必須安裝Java Runtime Environment(JRE)，而Java Development Kit(JDK)則是Oracle公司提供給Java開發者配置Java程式開發環境的安裝套件，這個安裝套件本身就內建了JRE的部分，所以開發者只要安裝好JDK後，就可以開發或者行任何Java程式了。
+
+本篇的重點將告訴讀者如何安裝JDK：
 
 <blockquote class="bq_setting">
 環境準備：<a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8</a>
