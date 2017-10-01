@@ -291,12 +291,12 @@ https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-des
 <div class="sp_setting">步驟9</div>
 在Main Class中，可以發現類別繼承Application類別，我們要做的是覆蓋父類別的start函式。我們要告訴程式起始應載入的使用者介面，並將其顯示。程式碼如下：
 <script type="syntaxhighlighter" class="brush: jfx">
-	Parent root = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
+Parent root = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
 &nbsp;
-	Scene scene = new Scene(root);
+Scene scene = new Scene(root);
 &nbsp;
-	primaryStage.setScene(scene);
-	primaryStage.show();
+primaryStage.setScene(scene);
+primaryStage.show();
 </script>
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/6-9.JPG"></span>
 
