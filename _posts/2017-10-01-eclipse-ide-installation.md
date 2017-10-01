@@ -23,7 +23,7 @@ Eclipse是一款為多數人使用的集成開發環境(Integrated Development E
 </blockquote>
 
 <div class="sp_setting">步驟1</div>
-安裝Eclipse之前需要先行安裝<a style="color:black;" target="_blank" href="https://imprld01.github.io/blog/tech-note/2017/10/01/java-runtime-environment-8-installation/">JRE</a>。
+安裝Eclipse之前需要先行安裝JRE，讀者可以參考<a style="color:black;" target="_blank" href="https://imprld01.github.io/blog/tech-note/2017/10/01/java-runtime-environment-8-installation/">此篇</a>。
 
 <div class="sp_setting">步驟2</div>
 前往Eclipse官方網站，選擇下載與系統環境相符的安裝執行檔，小編的環境Windows x64，所以選擇64 bit。
