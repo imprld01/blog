@@ -21,7 +21,8 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 (2) 使用者經驗(User Experience)：使用者使用產品的感覺，例如互動(設計者專注於流程體驗)
 </blockquote>
 
-[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/MVC.jpg" alt="MVC"></span>](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
+[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/uiux.png" alt="UI and UX"></span>](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
+
 說到Java的視窗程式，無非就是使用Java AWT/Swing來開發視窗程式，但是令人頭痛的是Java所提供的介面圖型並不好看，而且還要直接用撰寫程式碼的方式來開發，光是要建構一個計算機的GUI就要耗上大半的開發時間，如果要微調或者更改設計，就又要花大半的時間埋首於一堆程式碼中。幸好Eclipse上有插件可以提供開發者使用拖拉的方式迅速完成GUI並產出相關的程式碼，這樣便能方便開發者將精力放在解決困難的問題上，但是千萬別放棄使用Java開發視窗程式的念頭，因為後來Oracle開發出更好使用的GUI套件－JavaFX。JavaFX其實早在2008年就出現了，只是它並未內建在Java中，後來2014年Oracle公司發佈Java 8之後，JavaFX不再作為獨立的JavaFX SDK，而是直接內建在Java Runtime Environment(JRE)與Java Development Kit(JDK)中，與傳統的AWT/Swing比較，JavaFX提供更多更好的工具與函式庫幫助開發者開發視窗程式，而且其程式效能更加快速、圖形更具現代感。
 
 <blockquote class="bq_setting">
@@ -32,7 +33,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 </blockquote>
 
 本篇的重點不在如何設計UI或UX，而是將重點放在設計階段之後的實作，所以後續將會介紹使用Java建構一個視窗程式的基本概念。不過在實際介紹之前，小編希望帶給各位系統實作的原則－MVC(Model-View-Controller)模式，這是軟體工程(Software Engineering)中目前十分受歡迎並被廣泛接受的架構。其中的Model注重於處理系統中解決問題的邏輯與演算法；View則注重於呈現系統中的使用者介面並接收使用者的資訊；而Controller則是負責協調介於兩者之間的工作分配。舉例來說，使用者在網頁的表單(View)上輸入帳號與密碼(Data)，依照網頁表單指定的方式將使用者輸入的帳號與密碼(Data)傳送至後台的程式(Controller)處理，後台的程式(Controller)為了完成審核帳號與密碼的工作會呼叫其他程式(Model)來幫忙，例如呼叫資料庫連結的程式碼、查詢帳號與密碼的程式碼、審核帳號與密碼的程式碼等，最後由這些多個其他程式(Models)完成工作後，再由後台的程式(Controller)將結果傳回至網頁(View)上呈現。MVC的概念就好比是現實職場上，客戶、經理與員工的角色與職責分配。MVC的重點在於將系統中不同層面的工作區分開來，目的在於建構具有系統性的系統架構，好處在於方便後續的維護與管理，乃至於新相關程式碼的變更，當然這樣的原則也能幫助開發者開發時能有清晰的架構與思維撰寫相對應的程式碼，在團隊的分工合作上也是具有相當大的助益。
-[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/uiux.png" alt="UI and UX"></span>](http://140.138.149.49/N22/final_report/web/AM/)
+[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/MVC.jpg" alt="MVC"></span>](http://140.138.149.49/N22/final_report/web/AM/)
 
 首先我們先來回顧一下過去要如何使用Eclipse加速開Java AWT/Swing吧。
 
