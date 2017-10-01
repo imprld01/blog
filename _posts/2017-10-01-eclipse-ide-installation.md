@@ -19,7 +19,7 @@ Eclipse是一款為多數人使用的集成開發環境(Integrated Development E
 <blockquote class="bq_setting">
 環境準備：<br/>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment(JRE)</a><br>
-(2) <a style="color:black;" target="_blank" href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse IDE</a>
+(2) <a style="color:black;" target="_blank" href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse IDE for Java</a>
 </blockquote>
 
 <div class="sp_setting">步驟1</div>
