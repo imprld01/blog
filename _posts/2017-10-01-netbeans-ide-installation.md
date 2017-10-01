@@ -17,7 +17,7 @@ NetBeans是一款由Oracle公司開發的集成開發環境(Integrated Developme
 本篇的重點將告訴讀者如何安裝NetBeans IDE：
 
 <blockquote class="bq_setting">
-環境準備：<a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">NetBeans</a>
+環境準備：<a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">NetBeans IDE</a>
 </blockquote>
 
 <div class="sp_setting">步驟1</div>
