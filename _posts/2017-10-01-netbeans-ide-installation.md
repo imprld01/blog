@@ -33,7 +33,7 @@ NetBeans是一款由Oracle公司開發的集成開發環境(Integrated Developme
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-NetBeans/3.JPG"></span>
 
 <div class="sp_setting">步驟4</div> 
-點擊Next開始設定安裝配置。電腦中如果之前沒有過[Java Developmet Kit(JDK)](https://imprld01.github.io/blog/tech-note/2017/10/01/java-development-kit-8-installation/)，NetBeans安裝檔中也包含JDK的安裝，而小編的電腦中已經安裝過JDK了，所以安裝程式顯示在電腦有偵測到JDK。
+點擊Next開始設定安裝配置。電腦中如果之前沒有過<a style="color:black;" target="_blank" href="https://imprld01.github.io/blog/tech-note/2017/10/01/java-development-kit-8-installation/">Java Developmet Kit(JDK)</a>，NetBeans安裝檔中也包含JDK的安裝，而小編的電腦中已經安裝過JDK了，所以安裝程式顯示在電腦有偵測到JDK。
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-NetBeans/4.JPG"></span>
 
 <div class="sp_setting">步驟5</div>
