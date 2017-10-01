@@ -131,7 +131,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/2-9.JPG"></span>
 
 <div class="sp_setting">步驟10</div>
-拖曳之後，轉換回Source模式，可以發現對應的程式碼也被產生出來。
+拖曳之後，轉換回Source模式，可以發現對應的程式碼也被產生出來。讀者可以依照需求自行配置，乃至於撰寫相對應的核心程式。
 <span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/2-10.JPG"></span>
 
 * ⚫️ 在NetBeans上開始使用JavaFX：環境安裝
