@@ -1825,6 +1825,40 @@
 				display: block;
 				width: 100%;
 			}
+			
+/* uncover_image */
+	.uncover_image {
+		border: 0;
+		position: relative;
+	}
+
+		.uncover_image:before {
+			content: '';
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		.uncover_image.fit {
+			display: block;
+		}
+
+			.uncover_image.fit img {
+				display: block;
+				width: 100%;
+			}
+
+		.uncover_image.featured {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.uncover_image.featured img {
+				display: block;
+				width: 100%;
+			}
 
 /* Icon */
 
