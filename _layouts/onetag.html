@@ -14,7 +14,9 @@ comment-count	: true
 			{% for post in site.posts %}
 				{% if post.tags contains page.tag %}
 					{% unless forloop.first %}
-						<hr style="border: 1px solid #ccc">
+						{% unless forloop.last %}
+							<hr style="border: 1px solid #ccc">
+						{% endunless %}
 					{% endunless %}
 
 					<li class="wrapper style1">
