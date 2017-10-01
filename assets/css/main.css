@@ -33,12 +33,12 @@
 		font-style: normal;
 	}
 	
-	.step_setting {
+	.sp_setting {
 		display: block;
 		padding: 1em 1em 1em 1em;
 		margin: 1em 0em 1em 0em;
-		border-left: 6px solid #bcd2e5;
-		background-color: #d7e2e1;
+		border-left: 6px solid #096abc;
+		background-color: #38c1b0;
 		font-style: normal;
 	}
 
