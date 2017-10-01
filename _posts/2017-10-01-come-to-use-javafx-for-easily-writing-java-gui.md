@@ -88,7 +88,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 * ⚫️ 在Eclipse上開發Java AWT/Swing：初次使用
 
 <blockquote class="bq_setting">
-環境要求：
+環境要求：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment(JRE)</a><br>
 (2) <a style="color:black;" target="_blank" href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse IDE for Java</a><br>
 (3) <a style="color:black;" target="_blank" href="http://www.eclipse.org/windowbuilder/download.php">WindowBuilder</a>
@@ -137,7 +137,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 * ⚫️ 在NetBeans上開始使用JavaFX：環境安裝
 
 <blockquote class="bq_setting">
-環境準備：
+環境準備：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">NetBeans IDE</a><br>
 (2) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html">JavaFX Scene Builder 2.0</a>
 </blockquote>
@@ -168,7 +168,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 * ⚫️ 在NetBeans上開始使用JavaFX：初次使用
  
 <blockquote class="bq_setting">
-環境準備：
+環境準備：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">NetBeans IDE</a><br>
 (2) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html">JavaFX Scene Builder 2.0</a>
 </blockquote>
@@ -200,7 +200,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 * ⚫️ 在Eclipse上開始使用JavaFX：環境安裝
 
 <blockquote class="bq_setting">
-環境準備：
+環境準備：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment(JRE)</a><br>
 (2) <a style="color:black;" target="_blank" href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse IDE for Java</a><br>
 (3) <a style="color:black;" target="_blank" href="http://www.eclipse.org/efxclipse/install.html">e(fx)clipse</a><br>
@@ -251,7 +251,7 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 * ⚫️ 在Eclipse上開始使用JavaFX：初次使用
  
 <blockquote class="bq_setting">
-環境要求：
+環境要求：<br>
 (1) <a style="color:black;" target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment(JRE)</a><br>
 (2) <a style="color:black;" target="_blank" href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse IDE for Java</a><br>
 (3) <a style="color:black;" target="_blank" href="http://www.eclipse.org/efxclipse/install.html">e(fx)clipse</a><br>
