@@ -17,8 +17,8 @@ description	: 電腦的普及起源於電腦的方便使用。現在使用電腦
 
 <blockquote class="bq_setting">
 圖形化(Graphical)：<br>
-(1) 使用者介面(User Interface)：使用者<b>接觸</b>產品的部分，例如外觀(設計者專注於風格呈現)<br>
-(2) 使用者經驗(User Experience)：使用者使用產品的<b>感覺</b>，例如互動(設計者專注於流程體驗)
+(1) 使用者介面(User Interface)：使用者<strong>接觸</strong>產品的部分，例如外觀(設計者專注於風格呈現)<br>
+(2) 使用者經驗(User Experience)：使用者使用產品的<strong>感覺</strong>，例如互動(設計者專注於流程體驗)
 </blockquote>
 
 [<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171001-JavaFX/uiux.png" alt="UI and UX"></span>](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)
