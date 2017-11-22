@@ -37,7 +37,7 @@ description	:
 
 強大運算能力的電腦是雲端背後的支柱，電腦越加強大，輔助人類的範圍就越大，電腦如果具有智慧，這將大大改變未來的生活。而如何才能聲稱機器具有智慧？我們對於機器擁有智慧的試驗方法是依據計算機科學之父－艾倫．麥席森．圖靈(Alan Mathison Turing)在1950年提出的圖靈測試(Turing Test)：使受測者透過電傳設備與對方對話，在受測者已知對方可能為人類或機器的情況下，當受測者分辨不出對話的對象是人類還是機器時，該機器便具有智慧。
 
-[<span class="image featured"><img width="256" src="{{ site.baseurl }}/assets/img/20171123/turingTest.gif" alt="turing-test"></span>](https://commons.wikimedia.org/wiki/File%3ATuring-test.gif)
+[<span class="image featured"><img width="256" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Turing-test.gif" alt="turing-test"></span>](https://commons.wikimedia.org/wiki/File%3ATuring-test.gif)
 
 但是隨後在1980年約翰．羅傑斯．希爾勒(John Rogers Searle)認為圖靈測試的結果並不能代表機器真正具有「智慧」，因此提出中文房間論證(The Chinese Room Argument)：在封閉的房間中，一個英語使用者有著一本手冊，而門外的中文使用者透過門縫向英語使用者傳遞紙條，紙條上所寫的是中文使用者對英語使用者提出的問題；英語使用者並未學會中文，但是英語使用者能根據手冊找出相對的回應，門外的中文使用者也無法得知門內的英語使用者是否懂中文。這告訴我們，機器就算能模擬出如人類般智慧的對話(智慧的外顯行為)，也不算是真正具有智慧，因為機器只是根據手冊(演算法)作出反應，並未具有任何情感與意識。
 
