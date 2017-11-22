@@ -22,7 +22,7 @@ description	:
 要談機器人背後的科技就會談到人工智慧，尋找人工智慧相關的資料後，又會發現機器學習、資料探勘、深度學習等名詞。究竟什麼是人工智慧？什麼是機器學習？什麼是資料探勘？什麼是深度學習？這些名詞又與物聯網、雲端運算、大數據有什麼關聯？而雲端運算是什麼？物聯網是什麼？大數據又是什麼？這些名詞背後的差別是什麼？接下來就讓我們一探究竟吧。
 過去是互聯網的時代，人與人、人與機器、機器與機器互相連結著，而物聯網則是互聯網的延伸，其大概念主要是如字面上所述「讓物品連上網路」，這在雲端運算與網路架構都成熟的基礎下順利發展，這裡提到的雲端運算簡單來說主要就是希望精簡客戶端的機器功能，複雜的運算則交由後端大量的伺服器「平行處理」與「分散式處理」，當然雲端運算所包含的內容不只於此，有興趣的讀者可以自行搜尋其他文章。
 
-[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171123/IoT.jpg" alt="internet-of-things"></span>](https://commons.wikimedia.org/wiki/File%3AInternet_of_Things.jpg)
+[<span class="image featured"><img width="512" src="{{ site.baseurl }}/assets/img/20171123/IoT.jpg" alt="internet-of-things"></span>](https://commons.wikimedia.org/wiki/File%3AInternet_of_Things.jpg)
 
 在物聯網的興起下而誕生的名詞則是大數據，可以想像的是當世界是所有物品都具備聯網能力時，每樣物品每分每秒都在產生數據，這些數據的數量光是想像就十分可觀，這就是所謂的大數據。大數據背後隱藏著十分巨大的價值，如果我們能夠處理這些龐大的資料，將其轉變成有用的資訊，這些資訊將能創造龐大的利益。不過，如何運算這些巨量數據呢？答案是「多台高運算能力的電腦」，亦即透過大量的伺服器平行處理與分散式處理，而這也是大數據的必須的重點技術。這些數據或資訊又能夠如何被運用呢？答案是可以作為「機器人的課本」，亦即人工智慧的基礎原料。
 人工智慧是個大領域，裏頭包含了許多子領域與技術，包括機器學習、資料探勘、深度學習等，當然這些技術在必要時也需要透過平行處理與分散式處理等技術加速運算。下圖總結這些名詞彼此之間的關連，而平行處理與分散式處理則是用來支持雲端運算與人工智慧的處理技術，為避免過於混亂便不置於圖中。
@@ -33,11 +33,11 @@ description	:
 
 強大運算能力的電腦是雲端背後的支柱，電腦越加強大，輔助人類的範圍就越大，電腦如果具有智慧，這將大大改變未來的生活。而如何才能聲稱機器具有智慧？我們對於機器擁有智慧的試驗方法是依據計算機科學之父－艾倫．麥席森．圖靈(Alan Mathison Turing)在1950年提出的圖靈測試(Turing Test)：使受測者透過電傳設備與對方對話，在受測者已知對方可能為人類或機器的情況下，當受測者分辨不出對話的對象是人類還是機器時，該機器便具有智慧。
 
-[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171123/turingTest.gif" alt="turing-test"></span>](https://commons.wikimedia.org/wiki/File%3ATuring-test.gif)
+[<span class="image featured"><img width="256" src="{{ site.baseurl }}/assets/img/20171123/turingTest.gif" alt="turing-test"></span>](https://commons.wikimedia.org/wiki/File%3ATuring-test.gif)
 
 但是隨後在1980年約翰．羅傑斯．希爾勒(John Rogers Searle)認為圖靈測試的結果並不能代表機器真正具有「智慧」，因此提出中文房間論證(The Chinese Room Argument)：在封閉的房間中，一個英語使用者有著一本手冊，而門外的中文使用者透過門縫向英語使用者傳遞紙條，紙條上所寫的是中文使用者對英語使用者提出的問題；英語使用者並未學會中文，但是英語使用者能根據手冊找出相對的回應，門外的中文使用者也無法得知門內的英語使用者是否懂中文。這告訴我們，機器就算能模擬出如人類般智慧的對話(智慧的外顯行為)，也不算是真正具有智慧，因為機器只是根據手冊(演算法)作出反應，並未具有任何情感與意識。
 
-[<span class="image featured"><img src="{{ site.baseurl }}/assets/img/20171123/chineseRoom.jpg" alt="2-chinese-room"></span>](https://commons.wikimedia.org/wiki/File%3A2-chinese-room.jpg)
+[<span class="image featured"><img width="512" src="{{ site.baseurl }}/assets/img/20171123/chineseRoom.jpg" alt="2-chinese-room"></span>](https://commons.wikimedia.org/wiki/File%3A2-chinese-room.jpg)
 
 因此，真正的機器「人」應該是具有人類特質的機器，能如人類具有思想、意識、創作、情感、心靈、理解能力等，這些人類都不確定能完美解釋的特質，這也是目前技術最難突破的地方！那到底如何才能聲稱機器具有智慧？隨著人工智慧不斷的演進，圖靈測試的內容也不斷演進，出現許多其他版本的圖靈測試，像是「完全圖靈測試」，這部分留給有興趣的讀者研究！
 「各個擊破」(Divide and Conquer)是資訊領域常常使用的概念，也是人們很常直接使用的思維方式：透過將大問題拆解成許多子問題，以此類推，進而一一解決，這便是「各個擊破」的精神。循著這樣的想法，想要創造一個真正的機器人，就可以採用這個方式。將人們腦袋中的知識拆解成許多問題，再透過研究一個問題的規則作為人工智慧的基礎，例如研究人類如何對話？人類如何創作？醫生如何藉由診斷歸納出病名？集合這些能力，機器人就能如同人類或特定職業的專家一樣。因此在1970年代左右，人們便提出專家系統(Expert System)，專門被設計來解決特定領域內由領域專家才能解決的複雜問題，其主要是透過大量的規則來代表已知的知識，以達成自動化處理的目的。不過，這樣的發展方式卻面臨更多困難的挑戰，包括問題的複雜程度、解決方法的通用性以及當時硬體上的限制。
