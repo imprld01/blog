@@ -15,8 +15,6 @@ layout: default
 		{% for tag in page.tags %}
 			<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 		{% endfor %}
-		
-		{% include googleads-short-bar-style.html %}
 	</section>
 
 	<footer>
@@ -27,4 +25,6 @@ layout: default
 			<a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}" class="post-next">Next post &rarr;</a>
 		{% endif %}
 	</footer>
+	
+	{% include googleads-short-bar-style.html %}
 </article>
