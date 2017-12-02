@@ -15,10 +15,10 @@ layout: default
 		{% for tag in page.tags %}
 			<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
 		{% endfor %}
+		
+		{% include googleads-short-bar-style.html %}
 	</section>
 
-	{% include googleads-short-bar-style.html %}
-	
 	<footer>
 		{% if page.previous %}
 			<a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}" class="post-prev">&larr; Previous post</a>
