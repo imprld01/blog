@@ -1,0 +1,42 @@
+---
+layout			: default
+comment-count	: true
+---
+
+<article id="main">
+	<header class="special container">
+		<span class="icon fa-tag"></span>
+		<h2 class="post-title">Posts tagged by &lt;{{ page.title }}&gt;</h2>
+	</header>
+
+	<section class="style4 wrapper container">
+		<ul>
+			{% for post in site.posts %}
+				{% if post.tags contains page.tag %}
+					<li class="wrapper style1">
+						<h2 style="margin-bottom:0em"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+						<p>Posted By {% if post.author %}<a href="{{ site.github_url }}" style="color:#7c8081" target="_blank">{{ post.author }}</a>{% endif %} on {{ post.date | date: "%b %-d, %Y" }}</p>
+						<p>
+							<span class="icon fa-tag">:</span>
+							{% for tag in post.tags %}
+								<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
+							{% endfor %}
+							<span class="icon fa-comment"></span>
+							<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}" style="color:#7c8081">Loading...</a>
+						</p>
+						{{ post.excerpt }}
+						<section class="special">
+							<ul class="buttons">
+								<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
+							</ul>
+						</section>
+					</li>
+					
+					{% unless forloop.last %}
+						<hr style="border: 1px solid #ccc">
+					{% endunless %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</section>
+</article>

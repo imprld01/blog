@@ -1,0 +1,34 @@
+# Dependencies(Build Settings)
+markdown            : kramdown
+gems                : ["jekyll-paginate"]
+
+# Permalinks
+permalink           : pretty
+# there are many kinds of modes, including date, pretty, ordinal, none.
+# mode date is the default value.
+# know more from http://jekyllcn.com/docs/permalinks/
+
+# Site Info
+title               : BW's Blog
+title-cn            : 御風翱翔．知識漫遊
+keywords            : Bo-Wun Shih,Bo-Wun,BW,sbw,bws,BW,imprld01,imprld,BW's Blog,御風翱翔,知識漫遊,飛翔茶鋪
+tagline             : A Blog about Computer Science, Creative Work and Personal Articles
+description         : > # this means to ignore newlines until "url:"
+  This is blog about tech. This blog is owned by Bo-Wun!
+  In this blog, you can find many articles about computer science.
+  Bo-Wun a.k.a Brian. If you are interested, you can mail to me!
+  Topic in this blog, including python, etc.
+url                 : https://imprld01.github.io
+# the base hostname & protocol for your site
+baseurl             : /blog
+# the subpath of your site
+
+# Personal Info
+author              : Bo-Wun a.k.a Brian
+name                : Bo-Wun
+email               : sbw2319@gmail.com
+
+# Custom Vars
+version             : 0.1.0
+github_username     : imprld01
+github_url          : https://github.com/imprld01

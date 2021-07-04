@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article id="main">
+	<header class="special container">
+		<span class="icon fa-bookmark"></span>
+		<h2 class="post-title">{{ page.title }}</h2>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="{{ site.github_url }}" style="color:#7c8081" target="_blank">{{ page.author }}</a>{% endif %}</p>
+	</header>
+
+	<section class="pt_setting style4 wrapper container">
+		{{ content }}
+		<span class="icon fa-tag">:</span>
+		{% for tag in page.tags %}
+			<a href="{{ site.baseurl }}/tag-cloud/Tag-{{ tag }}"><span style="border-radius:5px;background-color:#337ab7;color:white;padding:7px;">{{ tag }}</span></a>&nbsp;
+		{% endfor %}
+	</section>
+
+	<footer>
+		{% if page.previous %}
+			<a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}" class="post-prev">&larr; Previous post</a>
+		{% endif %}
+		{% if page.next %}
+			<a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}" class="post-next">Next post &rarr;</a>
+		{% endif %}
+	</footer>
+</article>

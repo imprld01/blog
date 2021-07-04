@@ -1,0 +1,37 @@
+<head>
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | 御風翱翔．知識漫遊</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }};{{ page.subtitle }}{% else %}{{ site.title }}{% endif %}" />
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="keywords" content="Bo-Wun Shih,Bo-Wun,BW,sbw,bws,BW,imprld01,imprld,BW's Blog,御風翱翔,知識漫遊,飛翔茶鋪,{% if page.keywords %}{{ page.keywords }}{% endif %}">
+	<meta name="msvalidate.01" content="AA88D87AFAF648FEE45BA3A5A98B147B" />
+	<meta name="google-site-verification" content="qsJQCL11a0qVDx46trPNIEed4YnldTyB7pPn0OxHtec" />
+	
+	<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/jquery.scrollgress.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/util.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushPython.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJavaFX.min.js"></script>
+	
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-6015636098022992",
+			enable_page_level_ads: true
+		});
+	</script>
+	
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDjango.min.css" />
+	
+	<link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/o.ico">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
